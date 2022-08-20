@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("nature.jpg");
+    color: whitesmoke;
+    background-size: cover;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+h1 {
+    text-transform: uppercase;
+    background-color: rgba(0, 255, 0, 0.8);
+    padding: 4px 20px;
+    border-radius: 10px;
+
+}
+.clock {
+    display: flex;
+    background-color: rgb(167, 120, 120);
+    border-radius: 20px;
+}
+#date-el {
+    color: aliceblue;
+    background-color: black;
+    opacity: 0.8;
+    font-size: 1.5em;
+    padding: 20px 50px;
+    border-radius: 20px;
+    box-shadow:6px 10px 10px rgba(0, 255, 0, 0.8)
+}
+/*#time {
+    color: aliceblue;
+    background-color: black;
+    opacity: 0.8;
+    font-size: 1.5em;
+    padding: 20px 50px;
+    border-radius: 20px;
+    box-shadow:6px 10px 10px rgba(0, 255, 0, 0.8)
+}*/
+.clock div {
+    margin: 5px;
+    position: relative;
+    background-color: goldenrod;
+    border-radius: 10px;
+}
+.clock span {
+    display: flex;
+    width: 120px;
+    height: 80px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+.clock .text {
+    font-size: 20px;
+    background: blue;
+    height: 40px;
+    text-transform: uppercase;
+}
+.clock #ampm {
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    font-size: 30px;
+    width: 80px;
+    background-color: green;
+    border-radius: 8px;
+
+}
