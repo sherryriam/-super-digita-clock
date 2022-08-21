@@ -7,7 +7,7 @@ function updateClock(){
     const time =new Date().toLocaleTimeString()
     const d= new Date().toLocaleDateString()
     let h= new Date().getHours()
-    let m = new Date().getMonth()
+    let m = new Date().getMinutes()
     let s= new Date().getSeconds()
     let ampm= "AM"
     if(h > 12){
